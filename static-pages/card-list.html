@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>cardlist</title>
+  <!--  include this after we convert to PHP
+
+    <?php require_once 'inc/bootstrap.php';  ?>
+
+    <style>
+        body nav ul li#AdminMenu {display: none !important;}
+    </style>
+-->
+
+    <!-- pulled in Bootstrap files from CDN !!! DELETE ONCE WE CONVERT TO PHP !!!-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <!--in case I want to do some custom CSS -->
+    <link rel="stylesheet" href="styles.css" > 
+
+</head>
+
+<body >
+<!--<?php require_once 'inc/menubar.php';  ?> -->
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">Gift Cards R Us</a>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="card-add.html">Add a Card</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="cust-add.html">New Customer</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- GIFT CARDS -->
+<div class="container py-5">
+    <h1>Gift Cards</h1>
+    <hr>
+    <h2 class="mt-4">Choose a gift card below.</h2>
+    
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card mb-3">
+                <a href="card-details.html"><img src="img/B-N_card.jpeg" class="card-img-top" alt="Barnes and Noble gift card"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Barnes and Noble</h5>
+                    <p class="card-text">100 points</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card mb-3">
+                <a href="card-details.html"><img src="img/amazon_card.png" class="card-img-top" alt="Amazon gift card"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Amazon</h5>
+                    <p class="card-text">50 points</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card mb-3">
+                <a href="card-details.html"><img src="img/starbucks_card.jpeg" class="card-img-top" alt="Starbucks gift card"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Starbucks</h5>
+                    <p class="card-text">25 points</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card mb-3">
+                <a href="card-details.html"><img src="img/cinemark_card.png" class="card-img-top" alt="Cinemark gift card"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Cinemark</h5>
+                    <p class="card-text">25 points</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="navbar navbar-dark bg-dark">
+    <img src="/docs/4.4/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+        <a href="#top" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+</footer>   
+<!-- ADD IN ONCE WE CONVERT TO PHP <?php require_once 'inc/footer.php';  ?> -->
+
+</body>
+</html>

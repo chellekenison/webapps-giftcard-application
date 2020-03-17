@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>card-update</title>
+    <!--<?php require_once 'inc/bootstrap.php';  ?> ADD BACK IN ONCE WE CONVERT TO PHP-->
+
+    <!-- pulled in Bootstrap files from CDN !!! DELETE ONCE WE CONVERT TO PHP !!!-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+</head>
+
+<body >
+<!-- <?php require_once 'inc/menubar.php';  ?> -->
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">Gift Cards R Us</a>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="card-add.html">Add a Card</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="cust-add.html">New Customer</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- FORM -->
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <form action="card-list.html" method="post">
+                <h2>Update Gift Card</h2>
+                <div class="form-group">
+                    <label for="exampleFormControlFile1">Upload Card Image</label>
+                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                </div>
+
+                <div class="form-group mb-4">
+                    <label for="giftcardname1">Card Name</label>
+                    <input type="text" class="form-control form-control-lg" name="giftcardname" id="giftcardname1" aria-describedby="giftcardnameinput" placeholder="enter new gift card name">
+                </div>
+                <div class="form-group mb-4">
+                    <label for="giftcardpoints1">Card Points</label>
+                    <input type="text" class="form-control form-control-lg" name="giftcardpoints" id="giftcardpoints1" aria-describedby="giftcardpointsinput" placeholder="enter new gift card points">
+                </div>
+                <div class="form-row justify-content-center">
+                    <div class="form-group mt-4">
+                        <button type="submit" class="btn btn-primary btn-lg">Update</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>       
+
+<!-- FOOTER -->              
+
+<footer class="navbar navbar-dark bg-dark">
+    <img src="/docs/4.4/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+        <a href="#top" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+</footer>  
+
+<!-- <?php require_once 'inc/footer.php';  ?> -->
+
+</body>
+</html>
