@@ -1,0 +1,101 @@
+<html>
+<head>
+  <title> Air Asia Card Details </title>
+  </head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="styles.css" >
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Header -->
+	<div class="jumbotron text-center">
+		<h1>Air Asia Rewards</h1>
+		<p>Thank you for your continued support</p>
+	</div>
+
+
+
+  <!-- Navbar -->
+  	<nav class="navbar navbar-default">
+  	  <div class="container">
+  		<div class="navbar-header">
+  		   <a class="navbar-brand" href="#myPage"><span class="glyphicon glyphicon-picture"></span></a>
+  		</div>
+  		<div class="collapse navbar-collapse" id="myNavbar">
+  		  <ul class="nav navbar-nav navbar-right">
+  			<li><a href="#about">ABOUT</a></li>
+  			<li><a href="#services">CARDS</a></li>
+  			<li><a href="#portfolio">SHOPPING CART</a></li>
+  			<li><a href="#contact">CONTACT</a></li>
+  		  </ul>
+  		</div>
+  	  </div>
+  	</nav>
+
+
+    <div class="container-fluid bg-grey">
+      <div class="row">
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-credit-card"></span>
+        </div>
+
+        <div class="col-sm-8">
+          <h2>CARD DETAILS</h2><br>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              select an amount
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">$5</a><br>
+              <a class="dropdown-item" href="#">$10</a><br>
+              <a class="dropdown-item" href="#">$20</a><br>
+              <a class="dropdown-item" href="#">$50</a><br>
+              <a class="dropdown-item" href="#">$100</a><br>
+            </div>
+          </div>
+          <br>
+
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Recipient's name" aria-label="Recipient's email" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+          </div>
+          </div>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Recipient's email" aria-label="Recipient's email" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+          </div>
+        </div>
+<br>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Sender's name" aria-label="Recipient's email" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+            </div>
+          </div>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Sender's email" aria-label="Recipient's email" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+            </div>
+          </div>
+<br>
+      <div class="input-group">
+      <div class="input-group-prepend">
+        <span class="input-group-text">message</span>
+            </div>
+        <textarea class="form-control" aria-label="With textarea"></textarea>
+          </div>
+<br>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Quantity
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">$5</a><br>
+              <a class="dropdown-item" href="#">$10</a><br>
+              <a class="dropdown-item" href="#">$20</a><br>
+              <a class="dropdown-item" href="#">$50</a><br>
+              <a class="dropdown-item" href="#">$100</a><br>
+            </div>
+          </div>
+<br>
+
+          <button class="btn btn-lg">Add to Cart</button>
